@@ -3,6 +3,7 @@ Howdy people,
 It was brought up to me that I should start a new revision of the discussion.
 
 I'm looking for PHP Wiki Karma: wookieetyler
+
 Should we have a syntax RFC or should I get started on the POC?
 
 In the quest for typed arrays in PHP I beleive it is time to solidify the currently posed syntax:
