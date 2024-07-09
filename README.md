@@ -19,8 +19,8 @@ $array = ( iArrayA &| iArrayB ) [
 ];
 
 class D {
-	public ?iArrayB $exampleA;	// Array<iArrayA>
-	public ?iArrayB[] $exampleB;	// Array<iArrayA>[]
+  public ?iArrayB $exampleA;	// Array<iArrayA>
+  public ?iArrayB[] $exampleB;	// Array<iArrayA>[]
 
   public function definedReturn(): iArrayA {
     return [
