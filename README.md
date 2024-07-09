@@ -73,7 +73,7 @@ https://medium.com/cook-php/php-benchmark-time-fc19d813aa98
 | Object no constructor magic methods          | 2273.91%     |
 | Object no constructor stdClass               | 112.53%      |
 
-Considering a typed array could benifit from knowing the index positions ahead of time, this could mean a faster implemention (other than a hash table) could be appropreate. I see this becomming difficult with a complex type definitions e.g. ( iArrayA &| iArrayB | ( iArrayC & iArrayD ))
+Considering a typed array could benifit from knowing the index positions ahead of time, this could mean a faster implemention (other than a hash table) could be appropreate. I see this becomming difficult with a complex type definitions e.g. `( iArrayA &| iArrayB | ( iArrayC & iArrayD ))`
 
 How does this differ from generics? Interfaces will be used with generics, but is just another brick in the wall. If anything this would be a building block twords generics. I pose an example:
 
@@ -130,7 +130,7 @@ I'd like remind everyone that while generics would be cool, it is probably off t
 I think im ready to get started on the POC, but would like some feedback specifically from a karma granter as to how I should continue. 
 
 ___
-I do have a working POC of Apache PHP-CGI Websockets (new function apache_connection_stream), so hopefully I can be granted karma for at least that :) 
+I do have a working POC of Apache PHP-CGI Websockets (new function `apache_connection_stream`), so hopefully I can be granted karma for at least that :) 
 https://github.com/php/php-src/compare/master...RichardTMiles:php-src:apache_connection_stream
 
 Best,
