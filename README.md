@@ -61,15 +61,17 @@ Why have typed arrays at all? Array access is faster than object access:
 https://github.com/EFTEC/php-benchmarks/blob/master/benchmark_array_vs_object.php
 https://medium.com/cook-php/php-benchmark-time-fc19d813aa98
 
-Array numeric no factory: 			        0%   
-Array no factory 					              0.95%
-Array numeric factory: 				          566.1%
-Array factory: 						              650.07%
-Object Constructor: 				            609.03%
-Object no constructor 				          82.77%
-Object no constructor setter/getter: 	  2058.43%
-Object no constructor magic methods:	  2273.91%
-Object no constructor stdClass: 		    112.53%
+| Description                                  | Percentage   |
+|----------------------------------------------|--------------|
+| Array numeric no factory                     | 0%           |
+| Array no factory                             | 0.95%        |
+| Array numeric factory                        | 566.1%       |
+| Array factory                                | 650.07%      |
+| Object Constructor                           | 609.03%      |
+| Object no constructor                        | 82.77%       |
+| Object no constructor setter/getter          | 2058.43%     |
+| Object no constructor magic methods          | 2273.91%     |
+| Object no constructor stdClass               | 112.53%      |
 
 Considering a typed array could benifit from knowing the index positions ahead of time, this could mean a faster implemention (other than a hash table) could be appropreate. I see this becomming difficult with a complex type definitions e.g. ( iArrayA &| iArrayB | ( iArrayC & iArrayD ))
 
