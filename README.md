@@ -109,7 +109,7 @@ class B <T extends iColorCode>{
 
 Levi Morrison brought up that some work has been done parameterizing traits for anyone whoes intrested:
 https://github.com/php/php-src/compare/master...morrisonlevi:php-src:parameterized_traits
-I think this has solid work for that direction. I could see a world where PHP traits, interfaces, and classes could all be made generic. 
+I think this has solid work for that direction. I could see a world where PHP traits, interfaces, and classes could all be made generic. I plan to revisit this work myself after this initiative. Any help is always welcome.
 
 ```php
 interface iArrayA<T> [ 'a' => T ]
